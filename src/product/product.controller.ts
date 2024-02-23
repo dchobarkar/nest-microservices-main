@@ -1,6 +1,7 @@
 import { Controller, Get, Param, Post } from '@nestjs/common';
-import { ProductService } from './product.service';
 import { EventPattern } from '@nestjs/microservices';
+
+import { ProductService } from './product.service';
 
 @Controller('product')
 export class ProductController {
